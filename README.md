@@ -17,16 +17,6 @@ In particular, Reddit is home to many subreddits where news stories are posted a
 
 Another popular subreddit is "TheOnion", which features posts from the satirical news website "The Onion". This subreddit also consists of posts with the title and link to the article.  
 
----
-
-# Problem Statement  
-
-The Employee Welfare Inc. has a drama club which often performs skits at company events. Recently, they have been struggling to come up with skits to perform. The head of the drama club is a huge fan of Reddit, and often browses both the "WorldNews" and "TheOnion" subreddits. Whenever he sees an interesting title, he saves the title and the url in a .csv file to either read through the news, or use as reference for a skit in the future. However, as he does not note down the subreddit, he is  not able to quickly identify which subreddit it is from.  
-
-Hence, he has requested for the data science team to assist him by creating a model that can browse through reddit and identify whether a post is from "TheOnion" based on the title and any other factors that can be retrieved from the url. Further, he would like if this model can be adapted for other subreddits other than "TheOnion".  
-
-As he wants to find the satirical posts to use as reference for his club's skits, his requirement is that he wants as few real news posts as possible, as he does not want to perform skits based on real news.  
-
 This project will explore the use of k-Nearest Neighbours and RandomForestClassifier models to predict whether posts are from "TheOnion" based on the title and article text, and its success will be evaluated based on its specificity rating.  
 
 ---
